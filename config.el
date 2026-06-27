@@ -31,7 +31,9 @@
 ;; Shortcut to open an AI chat: SPC o c.
 (map! :leader
       (:prefix ("o" . "open")
-       :desc "Open AI Chat" "c" #'gptel))
+       :desc "Open AI Chat" "c" #'gptel
+       :desc "Send AI Prompt" "s" #'gptel-send
+       :desc "AI Prompt Menu" "m" #'gptel-menu))
 
 ;; --- PERFORMANCE ---
 ;; Improve LSP responsiveness.
