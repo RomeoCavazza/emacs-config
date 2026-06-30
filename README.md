@@ -6,9 +6,9 @@
   <img src="https://raw.githubusercontent.com/RomeoCavazza/setup-os/refs/heads/main/docs/assets/logo/ollama.png" alt="Ollama" width="26" />
 </p>
 
-Personal Doom Emacs configuration for Linux (NixOS).
+Linux/NixOS-oriented Doom Emacs configuration.
 This repository is the `$DOOMDIR`: Doom itself lives in `~/.emacs.d`, while
-this repo carries the module selection, user settings, and extra packages.
+this repo carries module selection, user settings, and extra packages.
 
 The profile is tuned for modal editing, fast project navigation, Org research,
 LSP-backed development, Magit, vterm, and local AI through Ollama.

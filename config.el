@@ -1,40 +1,34 @@
 ;;; $DOOMDIR/config.el -*- lexical-binding: t; -*-
 
-;; --- IDENTITY ---
+;; --- Identity ---
 (setq user-full-name "Romeo Cavazza"
       user-mail-address "ton.email@exemple.com")
 
-;; --- APPEARANCE ---
-;; Use the Nerd Font installed through NixOS.
+;; --- Appearance ---
 (setq doom-font (font-spec :family "JetBrainsMono Nerd Font" :size 14 :weight 'medium)
       doom-variable-pitch-font (font-spec :family "JetBrainsMono Nerd Font" :size 14))
 
-;; Visual theme.
 (setq doom-theme 'doom-one)
 
-;; Show relative line numbers, Vim-style.
 (setq display-line-numbers-type 'relative)
 
-;; --- ORG MODE ---
+;; --- Org ---
 (setq org-directory "~/org/")
 
-;; --- AI CONFIGURATION (GPTEL + OLLAMA) ---
+;; --- AI ---
 (use-package! gptel
   :config
-  ;; Use the symbol form, not the string form.
   (setq! gptel-model 'mistral
          gptel-backend (gptel-make-ollama "Ollama"
                          :host "localhost:11434"
                          :stream t
                          :models '(mistral llama3 gemma:2b))))
 
-;; Shortcut to open an AI chat: SPC o c.
 (map! :leader
       (:prefix ("o" . "open")
        :desc "Open AI Chat" "c" #'gptel
        :desc "Send AI Prompt" "s" #'gptel-send
        :desc "AI Prompt Menu" "m" #'gptel-menu))
 
-;; --- PERFORMANCE ---
-;; Improve LSP responsiveness.
+;; --- Performance ---
 (setq lsp-idle-delay 0.500)

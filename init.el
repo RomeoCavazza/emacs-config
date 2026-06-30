@@ -1,13 +1,12 @@
 ;;; init.el -*- lexical-binding: t; -*-
 
-;; This file controls what Doom modules are enabled and what order they load
-;; in. Remember to run 'doom sync' after modifying it!
+;; --- Doom Modules ---
 
 (doom! :input
        ;;bidi              ; (tfel ot) thgir etirw uoy gnipleh
        ;;chinese
        ;;japanese
-       ;;layout            ; auie,ctsrnm is the superior home row
+       ;;layout
 
        :completion
        (corfu +orderless)  ; Fast, modern completion
@@ -16,7 +15,7 @@
        :ui
        doom              ; Theme
        doom-dashboard    ; Start screen
-       hl-todo           ; Highlight TODO/FIXME/NOTE/DEPRECATED
+       hl-todo
        modeline          ; Status bar
        ophints           ; Visual hints
        (popup +defaults) ; Popup window handling
