@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Nix
+        uses: cachix/install-nix-action@v26
+
+      - name: Check Emacs Lisp syntax
+        run: |
+          nix shell nixpkgs#emacs-nox -c emacs --batch -Q --eval '
+            (progn
+              (dolist (file (directory-files-recursively default-directory "\\.el$"))
+                (with-temp-buffer
+                  (insert-file-contents file)
+                  (emacs-lisp-mode)
+                  (check-parens))))'
