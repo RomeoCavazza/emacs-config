@@ -1,9 +1,9 @@
 # Doom Emacs
 
 <p align="left">
-  <img src="https://raw.githubusercontent.com/RomeoCavazza/setup-os/refs/heads/main/docs/assets/logo/emacs.png" alt="Emacs" width="26" />
+  <img src="https://raw.githubusercontent.com/RomeoCavazza/nixos-config/refs/heads/main/docs/assets/logo/emacs.png" alt="Emacs" width="26" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nixos/nixos-original.svg" alt="NixOS" width="26" />
-  <img src="https://raw.githubusercontent.com/RomeoCavazza/setup-os/refs/heads/main/docs/assets/logo/ollama.png" alt="Ollama" width="26" />
+  <img src="https://raw.githubusercontent.com/RomeoCavazza/nixos-config/refs/heads/main/docs/assets/logo/ollama.png" alt="Ollama" width="26" />
 </p>
 
 Linux/NixOS-oriented Doom Emacs configuration.
@@ -14,7 +14,7 @@ The profile is tuned for modal editing, fast project navigation, Org research,
 LSP-backed development, Magit, vterm, and local AI through Ollama.
 
 **This config is maintained as part of
-[`setup-os`](https://github.com/RomeoCavazza/setup-os), where it is mounted at
+[`nixos-config`](https://github.com/RomeoCavazza/nixos-config), where it is mounted at
 `/etc/nixos/config/doom`.**
 
 ## Visual Guide
@@ -43,7 +43,7 @@ git clone https://github.com/RomeoCavazza/emacs-config ~/.config/doom
 ~/.emacs.d/bin/doom sync
 ```
 
-On `setup-os`, the NixOS module starts the Emacs daemon and installs the system
+On `nixos-config`, the NixOS module starts the Emacs daemon and installs the system
 dependencies needed by this profile:
 
 ```nix
@@ -116,7 +116,7 @@ ollama pull gemma:2b
 
 ## NixOS Integration
 
-The companion module in `setup-os` enables `emacs-pgtk` as a user daemon and
+The companion module in `nixos-config` enables `emacs-pgtk` as a user daemon and
 installs the native dependencies this config expects:
 
 - `ripgrep` and `fd` for project search.
