@@ -1,11 +1,10 @@
 # Doom Emacs
 
-[![CI](https://github.com/RomeoCavazza/emacs-config/actions/workflows/ci.yml/badge.svg)](https://github.com/RomeoCavazza/emacs-config/actions/workflows/ci.yml)
-
 <p align="left">
   <img src="https://raw.githubusercontent.com/RomeoCavazza/nixos-config/refs/heads/main/docs/assets/logo/emacs.png" alt="Emacs" width="26" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nixos/nixos-original.svg" alt="NixOS" width="26" />
   <img src="https://raw.githubusercontent.com/RomeoCavazza/nixos-config/refs/heads/main/docs/assets/logo/ollama.png" alt="Ollama" width="26" />
+  <a href="https://github.com/RomeoCavazza/emacs-config/actions/workflows/ci.yml"><img src="https://github.com/RomeoCavazza/emacs-config/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
 </p>
 
 Linux/NixOS-oriented Doom Emacs configuration.
