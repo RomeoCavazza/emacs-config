@@ -15,8 +15,9 @@ The profile is tuned for modal editing, fast project navigation, Org research,
 LSP-backed development, Magit, vterm, and local AI through Ollama.
 
 **This config is maintained as part of
-[`nixos-config`](https://github.com/RomeoCavazza/nixos-config), where it is mounted at
-`/etc/nixos/config/doom`.**
+[`nixos-config`](https://github.com/RomeoCavazza/nixos-config), where Home
+Manager deploys it to `~/.config/doom` from the pinned `doom-config` flake
+input.**
 
 ## Visual Guide
 
