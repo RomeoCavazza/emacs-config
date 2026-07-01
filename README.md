@@ -21,15 +21,15 @@ input.**
 
 ## Visual Guide
 
-![Leader bindings](assets/panel.png)
+![Leader bindings](https://raw.githubusercontent.com/RomeoCavazza/assets/main/emacs-config/assets/panel.webp)
 
 | Entry | Preview |
 | --- | --- |
-| **Dashboard** | ![Dashboard](assets/dashboard.png) |
-| **Edit File** | ![Edit File](assets/edit-file.png) |
-| **Search File** | ![Search File](assets/search-file.png) |
-| **Search Word** | ![Search Word](assets/search-word.png) |
-| **Assistant** | ![Assistant](assets/assistant.png) |
+| **Dashboard** | ![Dashboard](https://raw.githubusercontent.com/RomeoCavazza/assets/main/emacs-config/assets/dashboard.webp) |
+| **Edit File** | ![Edit File](https://raw.githubusercontent.com/RomeoCavazza/assets/main/emacs-config/assets/edit-file.webp) |
+| **Search File** | ![Search File](https://raw.githubusercontent.com/RomeoCavazza/assets/main/emacs-config/assets/search-file.webp) |
+| **Search Word** | ![Search Word](https://raw.githubusercontent.com/RomeoCavazza/assets/main/emacs-config/assets/search-word.webp) |
+| **Assistant** | ![Assistant](https://raw.githubusercontent.com/RomeoCavazza/assets/main/emacs-config/assets/assistant.webp) |
 
 ## Setup
 
