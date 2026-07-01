@@ -21,15 +21,15 @@ input.**
 
 ## Visual Guide
 
-![Leader bindings](https://raw.githubusercontent.com/RomeoCavazza/assets/main/emacs-config/assets/panel.webp)
+![Leader bindings](https://raw.githubusercontent.com/wiki/RomeoCavazza/nixos-config/images/emacs-config/assets/panel.webp)
 
 | Entry | Preview |
 | --- | --- |
-| **Dashboard** | ![Dashboard](https://raw.githubusercontent.com/RomeoCavazza/assets/main/emacs-config/assets/dashboard.webp) |
-| **Edit File** | ![Edit File](https://raw.githubusercontent.com/RomeoCavazza/assets/main/emacs-config/assets/edit-file.webp) |
-| **Search File** | ![Search File](https://raw.githubusercontent.com/RomeoCavazza/assets/main/emacs-config/assets/search-file.webp) |
-| **Search Word** | ![Search Word](https://raw.githubusercontent.com/RomeoCavazza/assets/main/emacs-config/assets/search-word.webp) |
-| **Assistant** | ![Assistant](https://raw.githubusercontent.com/RomeoCavazza/assets/main/emacs-config/assets/assistant.webp) |
+| **Dashboard** | ![Dashboard](https://raw.githubusercontent.com/wiki/RomeoCavazza/nixos-config/images/emacs-config/assets/dashboard.webp) |
+| **Edit File** | ![Edit File](https://raw.githubusercontent.com/wiki/RomeoCavazza/nixos-config/images/emacs-config/assets/edit-file.webp) |
+| **Search File** | ![Search File](https://raw.githubusercontent.com/wiki/RomeoCavazza/nixos-config/images/emacs-config/assets/search-file.webp) |
+| **Search Word** | ![Search Word](https://raw.githubusercontent.com/wiki/RomeoCavazza/nixos-config/images/emacs-config/assets/search-word.webp) |
+| **Assistant** | ![Assistant](https://raw.githubusercontent.com/wiki/RomeoCavazza/nixos-config/images/emacs-config/assets/assistant.webp) |
 
 ## Setup
 
